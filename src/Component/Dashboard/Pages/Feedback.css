@@ -1,0 +1,90 @@
+.feedback-wrapper {
+    background-color: #fff;
+    border: 1px solid #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+}
+.give-feedbackline {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.whatthink-line {
+    font-size: 11px;
+    font-weight: 500;
+}
+.Smiles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 50%;
+}
+.d-none {
+    display: none!important;
+}
+.smiles-bg {
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 21px;
+    padding: 10px;
+}
+.feedback-inpt-wrapper {
+    width: 100%;
+}
+.dohavethoughtline {
+    font-size: 11px;
+}
+.textarea-wrap {
+    border: 1px solid #b3c7ff;
+    border-radius: 20px;
+    height: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+}
+.may-wefollowupline {
+    font-size: 11px;
+    font-weight: 500;
+}
+.feed-radiowrapper {
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+}
+.radiobtn-wrapp {
+    width: 80px;
+}
+.feedback-sent-btn {
+    background-color: #1abf5d;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    height: 40px;
+    margin-right: 10px;
+    outline: none;
+    width: 100px;
+}
+.feedback-cancel-btn {
+    background-color: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    color: #606b87;
+    font-size: 13px;
+    font-weight: 700;
+    height: 40px;
+    outline: none;
+    width: 100px;
+}
+.feedback-cancel-btn:hover{
+    background-color: #1abf5d;
+    border: none;
+    color: #fff;
+}
+.mayourfeed-wrapper{
+    margin-top: 4rem;
+}

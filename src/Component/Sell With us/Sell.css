@@ -1,0 +1,162 @@
+.Sell_bg {
+  background-image: url("../../../public/images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 10px;
+  margin-bottom: 50px;
+  background-position: bottom;
+}
+.Sell_p {
+  font-size: 31px;
+  font-weight: 700;
+  width: 42%;
+}
+.Sell_btn {
+  background-color: #0baf4d;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+  padding: 10px 26px;
+  text-transform: uppercase;
+}
+.Sell_p1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 0rem;
+}
+.Affordable-line {
+  color: #0baf4d;
+  font-size: 15px;
+  font-weight: 500;
+}
+.it-dose-line {
+  font-size: 15px;
+  font-weight: 500;
+}
+.Sell_flex {
+  display: flex;
+}
+.tool-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.Lowfees-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.SEll_bottom {
+  background-color: #f7f7f7;
+  padding-bottom: 125px;
+  padding-top: 31px;
+}
+.howits-work-line {
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.heres-step-line {
+  color: #0baf4d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.Sell_sapn {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+}
+.Sell_img {
+  width: 100%;
+  border-radius: 10px;
+}
+.Sell_padd {
+  padding-bottom: 50px;
+}
+.Sell_btn1 {
+  background-color: #0baf4d;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  padding: 10px 26px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.Flex_Wrap {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e1e0e0;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+}
+.Sell_width{
+    width: 5rem;
+}
+@media screen and (max-width:991px) {
+    .Sell_p{
+        width: 51%;
+    }
+    .tool-wrap{
+        padding-right: 38px;
+    }
+}
+@media screen and (max-width:559px) {
+    .Sell_p{
+        width: 58%;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:454px) {
+    .Sell_p1{
+        font-size: 23px;
+    }
+    .Affordable-line{
+        font-size: 13px;
+    }
+    .it-dose-line{
+        font-size: 13px;
+    }
+    .SEll_bottom{
+        padding-bottom: 85px;
+    }
+    .Sell_p{
+        width: 100%;
+    }
+    .Sell_bg {
+        margin-bottom: 36px;
+    }
+    .Sell_flex span{
+        font-size: 11px;
+    }
+    .tool-wrap {
+        padding-right: 22px;
+    }
+}
+@media screen and (max-width:328px) {
+    .tool-wrap {
+        padding-right: 6px;
+    }
+    .Sell_p{
+        font-size: 18px;
+    }
+    .Sell_p1 {
+        font-size: 21px;
+    }
+    .howits-work-line{
+        font-size: 30px;
+    }
+    
+}

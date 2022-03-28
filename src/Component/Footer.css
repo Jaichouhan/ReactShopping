@@ -1,0 +1,144 @@
+ul {
+  list-style: none;
+  padding-left: 0rem;
+}
+.Footerbg {
+  background-color: #0baf4d;
+  color: #fff;
+  cursor: pointer;
+}
+.imgset {
+  width: 100%;
+  height: 432px;
+  cursor: pointer;
+}
+.Footer_disp {
+  background-color: #1abf5d;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: -45px;
+  margin-bottom: 60px;
+  color: #fff;
+  border-radius: 70px;
+  padding: 15px 30px;
+}
+.Footer_h3 {
+  font-size: 22px;
+  margin-left: 15px;
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+.Footer_flex {
+  display: flex;
+  align-items: center;
+}
+.Footer_flex img {
+  width: 60px;
+}
+.Footer_input {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  position: relative;
+}
+.Footer_input input {
+  width: 100%;
+  height: 55px;
+  padding: 10px 165px 10px 23px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.Footer_input button {
+  position: absolute;
+  right: 8px;
+  width: 150px;
+  background-color: #0baf4d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 70px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+}
+.Footer_h31 {
+  font-size: 16px;
+  font-weight: 800;
+}
+.Footer_li {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.Footer_listyle {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.Footer_listyle p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+.Footer_ul_Style li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.Footer_ul_Style a {
+  color: #fff;
+}
+.FooterPading {
+  padding-top: 2rem;
+}
+.Footer_end_bg {
+  background-color: #17a650;
+  color: #fff;
+  font-size: 13px;
+  padding: 15px 0;
+  align-items: center;
+}
+.Footer_p_mar {
+  margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .Footer_h3 {
+    font-size: 15px;
+  }
+  .Footer_flex img {
+    width: 49px;
+  }
+  .Footer_disp {
+    padding: 7px 27px;
+  }
+  .Footer_input input {
+    height: 49px;
+  }
+  .Footer_input button {
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Footer_disp {
+    display: block;
+  }
+  .Footer_flex {
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .Footer_input {
+    width: 100%;
+  }
+  .Footer_disp {
+    border-radius: 45px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .Footer_input input {
+    padding: 10px 75px 10px 23px;
+  }
+  .Footer_input button {
+    width: 76px;
+  }
+}

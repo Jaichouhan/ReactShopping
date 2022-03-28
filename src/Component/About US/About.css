@@ -1,0 +1,132 @@
+.About_bg {
+  background-image: url("../../../public/images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 10px;
+  margin-bottom: 50px;
+  background-position: bottom;
+}
+.About_bg h3 {
+  color: #0baf4d;
+  font-size: 21px;
+  font-style: italic;
+}
+.About_bg p {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 15px;
+  width: 55%;
+}
+.About_img {
+  width: 100%;
+}
+.About_style_h3 {
+  color: #0baf4d;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+}
+.About_style_h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.About_style_p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.About_style_p2 {
+  font-size: 12px;
+  font-weight: 900;
+}
+.About_style_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.About_style_ul li {
+  font-size: 12px;
+}
+.Li_space {
+  padding-left: -1rem;
+}
+.ABout_img_res {
+  width: 100%;
+}
+.About_bottom {
+  background-color: #f6f6f6;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 119px;
+  margin-top: 48px;
+}
+.About_bottomp {
+  font-size: 14px;
+  line-height: 30px;
+}
+.About_bottomImg {
+  padding: 0px 20px;
+  width: 100%;
+}
+.About_bottomh1 {
+  font-size: 34px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 991px) {
+  .About_bg p {
+    font-size: 23px;
+  }
+  .About_style_h2 {
+    font-size: 30px;
+  }
+  .About_style_p {
+    font-size: 12px;
+  }
+  .About_bottomh1 {
+    font-size: 29px;
+  }
+  .About_bottomp {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .About_bg p {
+    font-size: 18px;
+  }
+  .About_img {
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 443px) {
+  .About_bg p {
+    font-size: 14px;
+  }
+  .About_bg h3 {
+    font-size: 18px;
+  }
+  .About_bg {
+    padding: 28px 10px;
+    margin-bottom: 32px;
+  }
+  .About_style_ul {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .About_bottomp {
+    font-size: 11px;
+  }
+  .About_bottomh1 {
+    font-size: 25px;
+  }
+  .About_bottom {
+    margin-top: 26px;
+  }
+}
+@media screen and (max-width: 443px) {
+  .About_bg p {
+    font-size: 11px;
+  }
+  .About_bg {
+    padding: 22px 10px;
+    margin-bottom: 19px;
+  }
+}

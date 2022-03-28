@@ -1,0 +1,148 @@
+.bgped {
+  background-color: #f4f4f4;
+  padding: 50px 0px 100px 0px;
+}
+.bgimgc {
+  background-color: #0baf4d;
+  padding: 58px 0 20px;
+}
+.setelement {
+  display: flex;
+  padding-bottom: 38px;
+  padding-left: 25px;
+}
+.psetcol {
+  padding-left: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+.psetcol p {
+  font-size: 13px;
+  margin-bottom: 0rem;
+  line-height: 35px;
+}
+.psetcol span {
+  font-size: 13px;
+}
+.setelement {
+  display: flex;
+  padding-bottom: 38px;
+  padding-left: 25px;
+}
+.socialic {
+  padding: 10px;
+  text-align: center;
+  margin: 35px 0 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.socialic i {
+  width: 65px;
+  font-size: 40px;
+  color: #fff;
+}
+.bgsett {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.pcontac {
+  color: #001d23;
+  font-size: 30px;
+  font-weight: 900;
+}
+.inputst {
+  border: none;
+  background: #f4f4f4;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 1.5rem;
+}
+.inputst1 {
+  border: none;
+  background: #f4f4f4;
+  height: 50px;
+  font-size: 17px;
+
+  margin-bottom: 1.5rem;
+}
+.inputst2 {
+  border: none;
+  background: #f4f4f4;
+  font-size: 17px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.btn12 {
+  background-color: #ec111a;
+  color: #fff;
+  /* margin-top: 10px; */
+  border-radius: 33px;
+  padding: 9px 26px;
+  font-weight: 600;
+  outline: none;
+  font-size: 20px;
+}
+.btn12:hover {
+  background-color: #0d6efd;
+  width: 192.95px;
+  height: 50px;
+  /* border: 2px solid #0d6efd; */
+  border: none;
+}
+.Contact_pstyle {
+  color: #e82d34;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .bgped {
+    background-color: #fff;
+  }
+  .bgped {
+    padding: 0px;
+  }
+  .bgimgc {
+    margin-bottom: 5rem;
+  }
+  #formfir {
+    order: 2;
+  }
+  #formSec {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .psetcol span {
+    font-size: 11px !important;
+  }
+  .socialic i {
+    width: 54px;
+  }
+  .pcontac {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .psetcol span {
+    font-size: 17px;
+  }
+  .pcontac {
+    font-size: 26px;
+  }
+  .setelement {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 347px) {
+  .psetcol span {
+    font-size: 12px;
+  }
+}

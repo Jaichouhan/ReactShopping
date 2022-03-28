@@ -1,0 +1,231 @@
+.Checkout_bg {
+  background-color: #f8f8f8;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.billingFormwrapper p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.form-wrapper {
+  background-color: #fff;
+  border: 1px solid #e1e0e0;
+  padding: 20px;
+}
+.form-wrapper input {
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 8px 16px;
+  width: 100%;
+}
+.Shiptowrapper {
+  margin-top: 30px;
+}
+.checkdifferent {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+.checkdifferent input {
+  margin-right: 10px;
+}
+
+.checkdifferent span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.yourorder {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+.yourorder p {
+  color: #7b7b7b;
+  font-size: 14px;
+}
+.yourorder textarea {
+  padding: 20px;
+  width: 100%;
+}
+.Yourorderwrap p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.subtotal-wrapp {
+  background-color: #fff;
+  border: 1px solid #e1e0e0;
+  padding: 20px;
+}
+.products-tag {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.products-tag span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Touchtag {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.Touchtag span {
+  color: #8b8b8b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.products-tag {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.products-tag span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Shipping-tag {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.Shipping-tag span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Total-tag {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.Total-tag span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.accordion-header {
+  margin-bottom: 0;
+}
+.paymenttags {
+  align-items: center;
+  display: flex;
+  padding: 10px 0;
+}
+.paymenttags input {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.paymenttags span {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+.collapse:not(.show) {
+  display: none;
+}
+.property-down-aroww {
+  color: #f3f3f3;
+  left: 30px;
+  position: absolute;
+  top: -16px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.property-down-aroww i {
+  font-size: 38px;
+}
+.comment-wrapper p {
+  background-color: #f3f3f3;
+  font-size: 14px;
+  padding: 10px;
+}
+.comment-wrapper {
+  position: relative;
+}
+.place-btn {
+  background-color: #0baf4d;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px auto auto;
+  outline: none;
+  padding: 15px 16px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.form-wrapper {
+  padding: 2rem;
+}
+.cardnumber-wrapper {
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.cardnumber-wrapper input {
+  background-color: #f6f6f6;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 16px 20px;
+  width: 100%;
+}
+.cardnumber-wrapper input {
+  background-color: #f6f6f6;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 16px 20px;
+  width: 100%;
+}
+
+.remamber-wrapeer {
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  padding: 12px;
+}
+.remmber-line {
+  color: #878787;
+  font-size: 14px;
+}
+.pay-btns {
+  background-color: #0baf4d;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.inputASet{
+    width: 10% !important;
+    height: 11px !important;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 366px) {
+  .yourorder textarea {
+    padding: 10px;
+  }
+  .checkdifferent span {
+    font-size: 18px;
+  }
+  .billingFormwrapper p {
+    font-size: 18px;
+  }
+}
