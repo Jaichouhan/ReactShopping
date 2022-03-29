@@ -1,0 +1,167 @@
+.Order-trackWrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+.orderimg-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 50%;
+}
+.product-imgwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.processing-wrapperline {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Delivered-wrapperline {
+    color: #1abf5d;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ordertrackedpoinwrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 55%;
+}
+.order-wrapperpointfirst {
+    border-left: 2px solid #1abf5d;
+    height: 15%;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+.order-wrapperpointfirst:before {
+    background-color: #1abf5d;
+    border-radius: 50%;
+    color: #fff;
+    content: ".";
+    height: 15px;
+    left: -9px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+.orderfirstpoint-wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: -6px;
+}
+.order-tagwrapp {
+    color: #1abf5d;
+    font-size: 16px;
+    font-weight: 500;
+}
+.order-subdetails-line {
+    color: #9c9c9c;
+    font-size: 11px;
+}
+.shiped-tagwrapp {
+    border-left: 2px solid #bababa;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 28px;
+    position: relative;
+}
+.shiped-tagwrapp:before {
+    background-color: #fff;
+    border: 1px solid #bababa;
+    border-radius: 50%;
+    color: #fff;
+    content: ".";
+    height: 15px;
+    left: -9px;
+    position: absolute;
+    top: 24px;
+    width: 15px;
+}
+.Shipped-tagwrapp {
+    font-size: 16px;
+    font-weight: 500;
+}
+.Shipped-subdetails-line {
+    color: #9c9c9c;
+    font-size: 11px;
+}
+.Expected-tagwrapp {
+    border-left: 2px solid #bababa;
+    height: 10%;
+    padding-left: 10px;
+    padding-top: 35px;
+    position: relative;
+}
+.deliverd-wrapplastpoint {
+    bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+}
+.Expted-tagwrapp {
+    font-size: 16px;
+    font-weight: 500;
+}
+.Expected-subdetails-line {
+    color: #9c9c9c;
+    font-size: 11px;
+}
+.shipment-heading {
+    font-size: 16px;
+    font-weight: 500;
+}
+.shipment-info-wrapper {
+    border: 1px solid #e6e6e6;
+    list-style: none;
+    padding: 10px;
+}
+.shipment-detaisline {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.ordertrackdate {
+    font-size: 14px;
+    font-weight: 600;
+}
+.ordertrack-viewbtn {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.infotxt-wrapp {
+    font-size: 12px;
+    font-weight: 400;
+}
+.infodetalstxt-wrapp {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:767px) {
+    .Order-trackWrapper{
+        display: block;
+    }
+    .orderimg-wrapper{
+        display: block;
+    }
+}

@@ -1,0 +1,693 @@
+.Dashboard_bg{
+    background-color: #fafafa;
+    padding: 60px 0 100px;
+}
+.user-details-wrapper {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.userimg-wrapper {
+    background-image: url("../../../public/images/useer.fd.png");
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50px;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+.user-details-wrpapp {
+    margin-left: 20px;
+}
+.status-line {
+    color: #585858;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.user-line {
+    color: #585858;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.Deshbord-tab-wrapp {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 10px 0;
+}
+.Deshbord-tab-wrapp p {
+    border-bottom: 1px solid #e6e6e6;
+    color: #707070;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 13px 36px;
+    text-transform: uppercase;
+}
+.Deshbord-tab-wrapp p:hover{
+    color: #67c7f5;
+    cursor: pointer;
+}
+.color_p_effect{
+    color: #67c7f5 !important;
+    
+}
+.welcome-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.welcome-backline {
+    color: #38465a;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.my-recent-order-line {
+    color: #38465a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.logoutbtn {
+    background: none;
+    border: none;
+    color: #0baf4d;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.recent-orderwrapper {
+    background-color: #fff;
+}
+.recent-order-toptab {
+    align-items: flex-start;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.order-place-line {
+    color: #464646;
+    font-size: 11px;
+    margin-bottom: 0;
+}   
+.order-date {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.shipto-line {
+    color: #464646;
+    font-size: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.owner-order-name {
+    color: #0baf4d;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.short-addras {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 0rem;
+}
+.total-tag {
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.total-amounts {
+    color: #0baf4d;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.order-number {
+    color: #464646;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.vierorder-details-link {
+    background: none;
+    border: none;
+    color: #303030;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 900;
+    outline: none;
+}
+.order-items-wrapper {
+    background-color: #fff;
+    padding: 20px 20px 0;
+}
+.deliverd-status {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.order-product-wrapper {
+    align-items: center;
+    border-bottom: 2px solid #efefef;
+    display: flex;
+    padding: 30px 0 30px;
+}
+.order-productimg {
+    text-align: center;
+    width: 20%;
+}
+.order-product-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sold-bylin {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.return-elin {
+    color: #505050;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.price-tag {
+    color: #ed1c24;
+    font-size: 14px;
+    font-weight: 900;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-changes-btn {
+    background-color: #67c7f5;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    outline: none;
+    padding: 11px 8px;
+    width: 40%;
+}
+.DashboardDelevery{
+    background-color: #fff;
+    padding: 20px 20px 0;
+}
+.DashboardDelevery h3{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.orders-btns {
+    margin-top: 20px;
+    width: 100%;
+}
+.orders-btns {
+    margin-top: 20px;
+    width: 100%;
+}
+.trackpackage-btn {
+    font-size: 12px;
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid #efefef;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    outline: #ffdead;
+    cursor: pointer;
+    width: 100%;
+}
+.trackpackage-btn i {
+    font-size: 11px;
+    margin-left: 5px;
+}
+.cards-wrapper {
+    background-color: #fff;
+    padding: 20px;
+}
+.adddnewtag {
+    color: #0baf4d;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-details-wrapper {
+    align-items: center;
+    background-color: #f7f6fb;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+}
+.remove-btn {
+    background-color: #0baf4d;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 50px;
+}
+.mywallet-tabWrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+.mywalletheadeer-wrapper {
+    background-color: #c1ecc1;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.Walletamouuntwrapp {
+    display: flex;
+    flex-direction: column;
+}
+.Walletamouuntwrapp span {
+    color: #0baf0b;
+    font-size: 14px;
+    font-weight: 500;
+}
+.mywalletheadeer-wrapper .addMoneybtn {
+    background-color: #0baf0b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+.transection-linewrapper {
+    align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+    display: flex;
+    padding: 20px 27px;
+}
+.transection-linewrapper .arows {
+    color: #0baf0b;
+    font-size: 31px;
+    margin-right: 20px;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+.shop-transectiondetils {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.transection-shop-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.paymentrecevid {
+    color: #3b4a6a;
+    font-size: 15px;
+}
+.shopname {
+    color: #3b4a6a;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.craditamount {
+    font-size: 16px;
+    font-weight: 500;
+}
+.transection-linewrapper .paid-arows {
+    color: #ed1c24;
+    font-size: 31px;
+    margin-right: 20px;
+    -webkit-transform: rotate(229deg);
+    transform: rotate(229deg);
+}
+.Address-wrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 30px;
+    width: 100%;
+}
+.Addressrow-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.add-Address-wrapp {
+    align-items: center;
+    border: 1px dashed #beb9b9;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 31%;
+}
+.addto-cart-btn{
+    background-color: transparent;
+    border: 1px solid #0baf4d;
+    border-radius: 20px;
+    color: #0baf4d;
+    font-weight: 500;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.label-style{
+    font-weight: bold;
+    font-size: 17px;
+    color: #000;
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.styleh1{
+    color: #000;
+    font-size: 32px;
+}
+.bground-color{
+    background-color: #fff;
+}
+.input-tag_style{
+    background-color: #f3f3f3;
+    border: none;
+    font-size: 13px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 8px 16px;
+    width: 100%;
+
+}
+.Proper-input1{
+    background-color: #f3f3f3;
+    border: none;
+    font-size: 13px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 8px 16px;
+    width: 100%;
+
+}
+.styleh2{
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 8px;
+}
+.btn-set{
+    background-color: #0baf4d;
+    border: none;
+    border-radius: 70px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    padding: 8px 16px;
+    width: 30%;
+}
+.OrderDetailsline {
+    color: #38465a;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.order-dates-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.orders-date {
+    font-size: 12px;
+    margin-right: 20px;
+}
+.order-number {
+    font-size: 12px;
+}
+.walcome-status-wrapper1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.shipingwrapper {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.shipingAddreswrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.shipingAddreswrapper h6 {
+    margin-bottom: 15px;
+}
+.shipingAddreswrapper span {
+    color: #828891;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.shipingAddreswrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.card-method {
+    align-items: center;
+    display: flex;
+}
+.card-method img {
+    margin-right: 10px;
+}
+.card-method span {
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+.shipingAddreswrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.orderSunnary-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.orderSunnary-wrapper ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.shipingAddreswrapper span {
+    color: #828891;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.orderSunnary-wrapper ul li span b {
+    color: #000;
+}
+.form-wrapper label p{
+    margin-bottom: 0rem;
+}
+.AddMonyWrapper {
+    background-color: #fff;
+}
+.addresinputwrapp {
+    padding: 20px 20px 0;
+}
+.addmonyheading {
+    font-size: 14px;
+    font-weight: 700;
+}
+.addamountinput {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    width: 100%;
+}
+.selectoptionline {
+    font-size: 11px;
+    font-weight: 500;
+}
+.selectboxwrapper {
+    cursor: pointer;
+    margin-top: 10px;
+}
+.dabitcardselectwrapp {
+    border-bottom: 2px solid #f6f6f6;
+    border-top: 2px solid #f6f6f6;
+    padding: 20px;
+}
+.dabitcardselectwrapp label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+.dabitcardselectwrapp label input {
+    margin-right: 5px;
+}
+.dabitcardselectwrapp label span {
+    font-size: 16px;
+    font-weight: 700;
+}
+.giftwrpp {
+    border-bottom: 2px solid #f6f6f6;
+    cursor: pointer;
+    padding: 20px;
+}
+.accordion-item {
+    border: none;
+}
+.sendbtnwrappp {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sendbtnwrappp .sendbtn {
+    background-color: #0baf4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    padding: 10px 25px;
+    width: 100%;
+}
+.giftwrpp .giftwrapper {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .recent-order-toptab {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    .order-product-wrapper {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    .order-place-wrapp{
+        margin-bottom: 10px;
+    }
+    .shipto-wrapper{
+        margin-bottom: 10px;
+    }
+    .total-wrapper{
+        margin-bottom: 10px;
+    }
+    .order-items-wrapper{
+        padding: 10px 10px 0;
+    }
+    .save-changes-btn{
+        width: 50%;
+    }
+    .remove-btn{
+        padding: 8px 42px;
+    }
+    .add-Address-wrapp{
+        width: 100%;
+    }
+    .wishlist-wrapper .carts-bg {
+        overflow-x: scroll;
+    }
+    .styleh2{
+        font-size: 14px;
+    }
+    .label-style{
+        font-size: 14px;
+    }
+    .styleh1 {
+        font-size: 21px;
+    }
+    .shipingwrapper {
+        flex-direction: column;
+    }
+    .shipingAddreswrapper{
+        width: 100%;
+    }
+    .walcome-status-wrapper1{
+        display: block;
+    }
+    .order-dates-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Deshbord-tab-wrapp p{
+        padding: 13px 19px;
+    }
+    .trackpackage-btn{
+        padding: 10px 3px;
+    }
+    .Deshbord-tab-wrapp {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:302px) {
+    .save-changes-btn {
+        width: 57%;
+    }
+    .transection-linewrapper{
+        display: block;
+    }
+}
+@media screen and (max-width:450px) {
+    .remove-btn {
+        padding: 5px 15px;
+        margin-top: 1rem;
+    }
+    .card-details-wrapper{
+        display: block;
+    }
+}

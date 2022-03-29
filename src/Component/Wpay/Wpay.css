@@ -1,0 +1,14 @@
+.Wpay_img{
+    width: 100%;
+}
+.Wpay_bg{
+    padding: 30px 0 100px;
+}
+@media screen and (max-width:767px) {
+    .Wpay_img{
+        padding-bottom: 2rem;
+    }
+    .Wpay_bg{
+        padding: 30px 0 45px;
+    }
+}
